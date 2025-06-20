@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<title> N O O D L E S</title>
+<center>
+<head>
+  <style>
+    .marquee-container {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .marquee-text {
+      display: inline-block;
+      position: relative;
+      animation: moveLeft 5s linear infinite;
+    }
+
+    @keyframes moveLeft {
+      0%   { left: 100%; }
+      100% { left: -100%; }
+    }
+
+    @keyframes moveRight {
+      0%   { left: -100%; }
+      100% { left: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="marquee-container">
+  <div id="marqueeText" class="marquee-text">NOODLES!</div>
+</div>
+
+<script>
+  const marquee = document.getElementById('marqueeText');
+  let movingLeft = true;
+
+  setInterval(() => {
+    marquee.style.animation = movingLeft ? 'moveRight 5s linear infinite' : 'moveLeft 5s linear infinite';
+    movingLeft = !movingLeft;
+  }, 4500); // Switch every 5 seconds
+</script>
+
+</body>
+<style type="text/css">
+div {
+    width: 0px;
+    padding: 20px; 
+            border: 5 px solid rgb(248, 232, 0); 
+            margin: 0px; 
+            background-color: #ffffff;
+        }
+        body {
+				margin: auto;
+				padding: auto;
+				background-image: url(visit0.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: center center;
+			}
+</style>
+<img src="look.jpg" width="300px" height="200px">
+<p></p>
+<img src="9.jpg" width="300px" height="200px">
+<p></p>
+<img src="sunny.jpg" width="300px" height="200px">
+<p></p>
+<img src="wantfood.jpg" width="300px" height="200px">
+<p></p>
+<img src="smile.jpg" width="300px" height="200px">
+<p></p>
+<img src="lookup3.jpg" width="300px" height="200px">
+<p></p>
+<img src="stare.jpg" width="300px" height="200px">
+<p></p>
+<img src="bellyrub.jpg" width="300px" height="200px">
+<p></p>
+<img src="g i v e.jpg" width="300px" height="200px">
+<p></p>
+<img src="walked.jpg" width="300px" height="200px">
+<p></p>
+<img src="shade.jpg" width="300px" height="200px">
+<p></p>
+<img src="beggin.jpg" width="300px" height="200px">
+<p></p>
+<img src="goingin.jpg" width="300px" height="200px">
+<p></p>
+<img src="lookinhappy.jpg" width="300px" height="200px">
+<p></p>
+<body background="visit0.jpg"></body>
+<h2><a href="https://1379969.github.io/Noodles2/">Noodles</a></h2>
+<h2><a href="https://1379969.github.io/Noodles/">n o o d l e s</a></h2>
+</center>
+</div>
+</html>
